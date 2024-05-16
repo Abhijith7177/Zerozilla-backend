@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { updateClient } = require('../Controllers/clientController');
+const { updateClient } = require('../Controllers/ClientController');
 
 router.put('/update-one', updateClient);
 
